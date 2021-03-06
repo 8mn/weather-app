@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*,
+*:before,
+*::after{
+    box-sizing:inherit;
+}
+
+html{
+    box-sizing:border-box;
+    font-size:62.5%;
+}
+
+body{
+    font-family: 'Cookie', cursive;
+}
+.heading{
+    background-color: aqua;
+    text-align: center;
+    padding: 1rem;
+    font-size: 7rem;
+}
+
+.search-box{
+    background-color: beige;
+    padding: 2rem;
+    text-align: center;
+}
+
+.location-input{
+    padding: 1rem;
+    width: 30rem;
+    border-radius: 2rem;
+    border: 2px solid black;
+}
+
+.search-btn{
+    margin: 2rem;
+    padding: 1.2rem 2rem;
+    border-radius: 2rem;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    background-color: black;
+    color: white;
+}
