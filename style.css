@@ -13,19 +13,26 @@ html{
     font-size:62.5%;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+}
+
 body{
     font-family: 'Cookie', cursive;
+    overflow: hidden;
 }
 .heading{
-    background-color: aqua;
+    background-color: #e76f51;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     font-size: 7rem;
 }
 
 .search-box{
-    background-color: beige;
-    padding: 2rem;
+    background-color: #f4a261;
+    padding: 3rem;
     text-align: center;
 }
 
@@ -47,4 +54,63 @@ body{
 .search-btn:hover{
     background-color: black;
     color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.info-section{
+    background-color: #e9c46a;
+    padding: 3rem;
+}
+
+.info-card{
+    background-color: white;
+    width: max-content;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.gif-section{
+    background-color: #2a9d8f;
+    padding: 7rem;
+}
+
+.footer{
+    background-color: #264653;
+    flex-grow: 1;
+    overflow:hidden;
+    min-height: 100vh;
+}
+
+.summary-item{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+    font-size: 4rem;
+    flex: 1;
+    text-align: center; 
+    align-items: center;
+    padding: 1.3em;
+    border-radius:2rem 0 0 2rem;
+    /* font-family: 'Lato', sans-serif; */
+    
+}
+
+.summary-item:nth-child(2){
+    border-left: 2px solid black;
+    border-radius: 0 2rem 2rem 0 ;
+}
+
+
+
+.result-details{
+    display: flex;
+    gap: 3rem;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+#result-summary{
+    display: flex;
 }

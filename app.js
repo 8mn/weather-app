@@ -6,7 +6,7 @@ let locationInput = document.querySelector('.location-input');
 let searchBtn = document.querySelector('.search-btn');
 
 
-let cityName = 'london';
+let cityName = '';
 
 
 
